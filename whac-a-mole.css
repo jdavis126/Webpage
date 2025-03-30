@@ -1,0 +1,57 @@
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole{
+    background-image: url('images/mole.jpg');
+    background-size: cover;
+}
+
+.flex_container{
+    display: flex;
+    /* background-color: lightgray; */
+    flex-direction:row;
+    /* flex-direction:column; */
+    justify-content:center;
+}
+
+.nav_item
+{
+    background-color: grey;
+    color: black;
+    border: 1px solid white;
+    text-align: center;
+    font-weight:bold;
+}
+
+a:link 
+{
+    text-decoration: none;
+    color:black;
+}
+  
+a:visited 
+{
+text-decoration: none;
+color:white;
+}
+
+a:hover 
+{
+text-decoration: underline;
+color:black;
+}
+
+a:active 
+{
+text-decoration: underline;
+}
